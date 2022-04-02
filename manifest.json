@@ -1,0 +1,40 @@
+{
+  "Actions": [
+    {
+      "Icon": "actionIcon", 
+      "Name": "CastMate", 
+      "States": [
+        {
+          "Image": "actionDefaultImage",
+          "TitleAlignment": "middle", 
+          "FontSize": "16"
+        }
+      ], 
+      "SupportedInMultiActions": false,
+      "Tooltip": "How many times did you get pwned today? Keep track with this counter.", 
+      "UUID": "com.castmate.profile.action"
+    }
+  ], 
+  "SDKVersion": 2,
+  "Author": "FitzBro", 
+  "CodePath": "plugin/index.html", 
+  "Description": "Connect with CastMate.", 
+  "Name": "CastMate", 
+  "Icon": "pluginIcon", 
+  "URL": "https://github.com/LordTocs/CastMate", 
+  "Version": "1.0",
+  "OS": [
+    {
+        "Platform": "mac", 
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows", 
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software": 
+    {
+        "MinimumVersion" : "4.1"
+    }
+}
